@@ -1,0 +1,26 @@
+{
+  "name": "das-global-backend",
+  "version": "1.0.0",
+  "description": "API REST Express.js + PostgreSQL - Prueba técnica DAS Global",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "init-db": "node db/init.js"
+  },
+  "keywords": [
+    "express",
+    "postgresql",
+    "das-global"
+  ],
+  "author": "Denis Ixcajoc",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.12.0"
+  }
+}

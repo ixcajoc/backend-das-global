@@ -1,0 +1,17 @@
+{
+  "empresa": {
+    "nombre": "Organizacion",
+    "pais": "Guatemala",
+    "sucursales": [
+      {
+        "nombre": "Sucursal 1",
+        "direccion": "Direccion 1",
+        "telefono": "11223341",
+        "colaboradores": [
+          { "nombre": "Juan Perez", "CUI": "123456789123" },
+          { "nombre": "Alvaro Mendez", "CUI": "12346789123" }
+        ]
+      }
+    ]
+  }
+}
