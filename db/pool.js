@@ -8,6 +8,10 @@ const pool = new Pool({
   database: process.env.DB_NAME || 'das_global',
   user: process.env.DB_USER || 'postgres',
   password: process.env.DB_PASSWORD || 'user',
+
+  ssl: {
+    rejectUnauthorized: false
+  }
 });
 
 
