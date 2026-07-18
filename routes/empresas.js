@@ -30,7 +30,7 @@ function extraerEmpresa(body) {
 router.post('/upload', upload.single('file'), async (req, res) => {
   let body = req.body;
 
-  // Si vino como archivo, parsear su contenido
+  // Si viene como archivo, se parsea el contenido
   if (req.file) {
     try {
       body = JSON.parse(req.file.buffer.toString('utf8'));
