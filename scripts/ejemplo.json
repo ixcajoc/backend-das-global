@@ -1,0 +1,53 @@
+{
+  "empresa": {
+    "nombre": "Organizacion",
+    "pais": "Guatemala",
+    "sucursales": [
+      {
+        "nombre": "Sucursal 1",
+        "direccion": "Direccion 1",
+        "telefono": "11223341",
+        "colaboradores": [
+          {
+            "nombre": "Juan Perez",
+            "CUI": "123456789123"
+          },
+          {
+            "nombre": "Alvaro Mendez",
+            "CUI": "12346789123"
+          }
+        ]
+      },
+      {
+        "nombre": "Sucursal 2",
+        "direccion": "Direccion 2",
+        "telefono": "11223342",
+        "colaboradores": [
+          {
+            "nombre": "Esteban Jacobo",
+            "CUI": "1234569123"
+          }
+        ]
+      },
+      {
+        "nombre": "Sucursal 3",
+        "direccion": "Direccion 3",
+        "telefono": "11223343",
+        "colaboradores": [
+          {
+            "nombre": "Lilian Reyes",
+            "CUI": "123456789"
+          },
+          {
+            "nombre": "Eduardo Lopez",
+            "CUI": "46789123"
+          },
+          {
+            "nombre": "Joel Linares",
+            "CUI": "46789123"
+          }
+        ]
+      }
+    ]
+  }
+}
